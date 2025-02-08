@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Tech Keeda : Courses</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/mac-line.svg" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
+        <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
+            <p class="m-0 fw-bold" style="font-size: 25px;"><img src="img/mac-line.svg" alt="" height="50px">Secret<span
+                    style="color: #fb873f;">Coder</span></p>
+        </a>
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+            style="border: none;">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto p-4 p-lg-0">
+                <a href="index.html" class="nav-item nav-link active">Home</a>
+                <a href="about.html" class="nav-item nav-link">About</a>
+                <a href="courses.html" class="nav-item nav-link">Courses</a>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                    <div class="dropdown-menu fade-down m-0">
+                        <a href="team.html" class="dropdown-item">Our Team</a>
+                        <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+
+                    </div>
+                </div>
+                <a href="contact.html" class="nav-item nav-link">Contact</a>
+                <a href="login.html" class="nav-item nav-link"><i class="fa fa-user"></i></a>
+                <a href="#" class="nav-item nav-link">
+                    <div id="google_translate_element"></div>
+                </a>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Header Start -->
+    <div class="container-fluid bg-primary py-5 mb-5 page-header">
+        <div class="container py-5">
+            <div class="row justify-content-center">
+                <div class="col-lg-10 text-center">
+                    <h1 class="display-3 text-white animated slideInDown">Courses</h1>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb justify-content-center">
+                            <li class="breadcrumb-item"><a class="text-white" href="index.html">Home</a></li>
+                            <li class="breadcrumb-item text-white active" aria-current="page">Courses</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Header End -->
+
+
+    <!-- Categories Start -->
+    <div class="container-xxl py-5 category">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="section-title bg-white text-center px-3">Categories</h6>
+                <h1 class="mb-5" style="color: #fb873f;">Popular Topics to Explore</h1>
+            </div>
+            <div class="row g-2 m-2">
+                <div class="col-lg-3 col-md-6  text-center">
+                    <div class="content shadow p-3 mb-2 wow fadeInUp" data-wow-delay="0.3s">
+
+                        <img src="img/cat1.png" class="img-fluid" alt="categories"></i>
+
+                        <h5 class="my-2">
+                            <a href="#" class="text-center">Microsoft Excel</a>
+                        </h5>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6  text-center">
+                    <div class="content shadow p-3 mb-2 wow fadeInUp" data-wow-delay="0.3s">
+
+                        <img src="img/cat2.png" class="img-fluid" alt="categories"></i>
+
+                        <h5 class="my-2">
+                            <a href="#" class="text-center"> AWS</a>
+                        </h5>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6  text-center">
+                    <div class="content shadow p-3 mb-2 wow fadeInUp" data-wow-delay="0.3s">
+
+                        <img src="img/cat3.png" class="img-fluid" alt="categories"></i>
+
+                        <h5 class="my-2">
+                            <a href="#" class="text-center">Python</a>
+                        </h5>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6  text-center">
+                    <div class="content shadow p-3 mb-2 wow fadeInUp" data-wow-delay="0.3s">
+
+                        <img src="img/cat4.png" class="img-fluid" alt="categories"></i>
+
+                        <h5 class="my-2">
+                            <a href="#" class="text-center">Java</a>
+                        </h5>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6  text-center">
+                    <div class="content shadow p-3 mb-2 wow fadeInUp" data-wow-delay="0.3s">
+
+                        <img src="img/cat5.png" class="img-fluid" alt="categories"></i>
+
+                        <h5 class="my-2">
+                            <a href="#" class="text-center">Web Design</a>
+                        </h5>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6  text-center">
+                    <div class="content shadow p-3 mb-2 wow fadeInUp" data-wow-delay="0.3s">
+
+                        <img src="img/cat6.png" class="img-fluid" alt="categories"></i>
+
+                        <h5 class="my-2">
+                            <a href="#" class="text-center">Web Development</a>
+                        </h5>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6  text-center">
+                    <div class="content shadow p-3 mb-2 wow fadeInUp" data-wow-delay="0.3s">
+
+                        <img src="img/cat7.png" class="img-fluid" alt="categories"></i>
+
+                        <h5 class="my-2">
+                            <a href="#" class="text-center">MySQL</a>
+                        </h5>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6  text-center">
+                    <div class="content shadow p-3 mb-2 wow fadeInUp" data-wow-delay="0.3s">
+
+                        <img src="img/cat8.png" class="img-fluid" alt="categories"></i>
+
+                        <h5 class="my-2">
+                            <a href="#" class="text-center">UI/UX Design</a>
+                        </h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Categories End -->
+
+
+
+    <!-- Courses Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="section-title bg-white text-center px-3">Popular Courses</h6>
+                <h1 class="mb-5" style="color: #fb873f;">Explore new and trending free online courses</h1>
+            </div>
+            <div class="row g-4 py-2">
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="course-item shadow">
+                        <div class="position-relative overflow-hidden text-light image">
+                            <img class="img-fluid" src="https://jaro-website.s3.ap-south-1.amazonaws.com/2024/01/data-engineering.jpeg" alt="">
+                            <div style="position:absolute;top: 15px;left: 16px; font-size:12px; border-radius:3px; background-color:#fb873f;"
+                                class="px-2 py-1 fw-bold text-uppercase">FREE</div>
+
+                        </div>
+                        <div class="p-2 pb-0">
+
+                            <h5 class="mb-1"><a href="single.html" class="text-dark">Database Engineering</a></h5>
+                        </div>
+                        <div class="d-flex">
+                            <small class="flex-fill text-center py-1 px-2"><i class="fa fa-star text-warning me-2"></i>
+                                4.55</small>
+                            <small class="flex-fill text-center py-1 px-2"><i class="fa fa-user-graduate me-2"></i>5.8L+
+                                Learners
+                            </small>
+                            <small class="flex-fill text-center py-1 px-2"><i
+                                    class="fa fa-user me-2"></i>Beginner</small>
+                        </div>
+                        <div class="d-flex">
+                            <small class="flex-fill text-left p-2 px-2"><i class="fa fa-clock me-2"></i>2.0
+                                Hrs</small>
+                            <small class="py-1 px-2 fw-bold fs-6 text-center">₹ 0</small>
+                            <small class=" text-primary py-1 px-2 fw-bold fs-6" style="float:right;"><a href="#">Enroll
+                                    Now </a><i class="fa fa-chevron-right me-2 fs-10"></i></small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="course-item shadow">
+                        <div class="position-relative overflow-hidden text-light image">
+                            <img class="img-fluid" src="https://media.geeksforgeeks.org/wp-content/uploads/20230406152358/CN-(1).jpg" alt="">
+                            <div style="position:absolute;top: 15px;left: 16px; font-size:12px; border-radius:3px; background-color:#0ed44c;"
+                                class="px-2 py-1 fw-bold text-uppercase">PAID</div>
+
+                        </div>
+                        <div class="p-2 pb-0">
+
+                            <h5 class="mb-1">Computer Networks
+                            </h5>
+                        </div>
+                        <div class="d-flex">
+                            <small class="flex-fill text-center py-1 px-2"><i class="fa fa-star text-warning me-2"></i>
+                                4.55</small>
+                            <small class="flex-fill text-center py-1 px-2"><i class="fa fa-user-graduate me-2"></i>5.2L+
+                                Learners
+                            </small>
+                            <small class="flex-fill text-center py-1 px-2"><i
+                                    class="fa fa-user me-2"></i>Beginner</small>
+                        </div>
+                        <div class="d-flex">
+                            <small class="flex-fill text-left p-2 px-2"><i class="fa fa-clock me-2"></i>4.0
+                                Hrs</small>
+                            <small class="py-1 px-2 fw-bold fs-6 text-center">₹ 199</small>
+                            <small class=" text-primary py-1 px-2 fw-bold fs-6" style="float:right;"><a href="#">Enroll
+                                    Now </a><i class="fa fa-chevron-right me-2 fs-10"></i></small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="course-item shadow">
+                        <div class="position-relative overflow-hidden text-light image">
+                            <img class="img-fluid" src="data:image/jpeg;base64,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" alt="">
+                            <div style="position:absolute;top: 15px;left: 16px; font-size:12px; border-radius:3px; background-color:#fb873f;"
+                                class="px-2 py-1 fw-bold text-uppercase">FREE</div>
+
+                        </div>
+                        <div class="p-2 pb-0">
+
+                            <h5 class="mb-1">Operating Systems
+                            </h5>
+                        </div>
+                        <div class="d-flex">
+                            <small class="flex-fill text-center py-1 px-2"><i class="fa fa-star text-warning me-2"></i>
+                                4.46</small>
+                            <small class="flex-fill text-center py-1 px-2"><i class="fa fa-user-graduate me-2"></i>76L+
+                                Learners
+                            </small>
+                            <small class="flex-fill text-center py-1 px-2"><i
+                                    class="fa fa-user me-2"></i>Beginner</small>
+                        </div>
+                        <div class="d-flex">
+                            <small class="flex-fill text-left p-2 px-2"><i class="fa fa-clock me-2"></i>2.5
+                                Hrs</small>
+                            <small class="py-1 px-2 fw-bold fs-6 text-center">₹ 0</small>
+                            <small class=" text-primary py-1 px-2 fw-bold fs-6" style="float:right;"><a href="#">Enroll
+                                    Now </a><i class="fa fa-chevron-right me-2 fs-10"></i></small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="course-item shadow">
+                        <div class="position-relative overflow-hidden text-light image">
+                            <img class="img-fluid" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9TbHzsLvGb65tFdlXRRsdcdhLgJUUxELRZQ&s" alt="">
+                            <div style="position:absolute;top: 15px;left: 16px; font-size:12px; border-radius:3px; background-color:#0ed44c;"
+                                class="px-2 py-1 fw-bold text-uppercase">PAID</div>
+
+                        </div>
+                        <div class="p-2 pb-0">
+
+                            <h5 class="mb-1">OOPs
+                            </h5>
+                        </div>
+                        <div class="d-flex">
+                            <small class="flex-fill text-center py-1 px-2"><i class="fa fa-star text-warning me-2"></i>
+                                3.54</small>
+                            <small class="flex-fill text-center py-1 px-2"><i class="fa fa-user-graduate me-2"></i>3.3L+
+                                Learners
+                            </small>
+                            <small class="flex-fill text-center py-1 px-2"><i
+                                    class="fa fa-user me-2"></i>Beginner</small>
+                        </div>
+                        <div class="d-flex">
+                            <small class="flex-fill text-left p-2 px-2"><i class="fa fa-clock me-2"></i>3.0
+                                Hrs</small>
+                            <small class="py-1 px-2 fw-bold fs-6 text-center">₹ 299</small>
+                            <small class=" text-primary py-1 px-2 fw-bold fs-6" style="float:right;"><a href="#">Enroll
+                                    Now </a><i class="fa fa-chevron-right me-2 fs-10"></i></small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="course-item shadow">
+                        <div class="position-relative overflow-hidden text-light image">
+                            <img class="img-fluid" src="img/course-5.jpg" alt="">
+                            <div style="position:absolute;top: 15px;left: 16px; font-size:12px; border-radius:3px; background-color:#fb873f;"
+                                class="px-2 py-1 fw-bold text-uppercase">FREE</div>
+
+                        </div>
+                        <div class="p-2 pb-0">
+
+                            <h5 class="mb-1">SQL for Data Science
+                            </h5>
+                        </div>
+                        <div class="d-flex">
+                            <small class="flex-fill text-center py-1 px-1"><i class="fa fa-star text-warning me-2"></i>
+                                4.54</small>
+                            <small class="flex-fill text-center py-1 px-1"><i class="fa fa-user-graduate me-2"></i>1.3L+
+                                Learners
+                            </small>
+                            <small class="flex-fill text-center py-1 px-1"><i
+                                    class="fa fa-user me-2"></i>Intermediate</small>
+                        </div>
+                        <div class="d-flex">
+                            <small class="flex-fill text-left p-2 px-2"><i class="fa fa-clock me-2"></i>5.0
+                                Hrs</small>
+                            <small class="py-1 px-2 fw-bold fs-6 text-center">₹ 0</small>
+                            <small class=" text-primary py-1 px-2 fw-bold fs-6" style="float:right;"><a href="#">Enroll
+                                    Now </a><i class="fa fa-chevron-right me-2 fs-10"></i></small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="course-item shadow">
+                        <div class="position-relative overflow-hidden text-light image">
+                            <img class="img-fluid" src="img/course-6.jpg" alt="">
+                            <div style="position:absolute;top: 15px;left: 16px; font-size:12px; border-radius:3px; background-color:#fb873f;"
+                                class="px-2 py-1 fw-bold text-uppercase">FREE</div>
+
+                        </div>
+                        <div class="p-2 pb-0">
+
+                            <h5 class="mb-1">ChatGPT for Beginners
+                            </h5>
+                        </div>
+                        <div class="d-flex">
+                            <small class="flex-fill text-center py-1 px-2"><i class="fa fa-star text-warning me-2"></i>
+                                3.55</small>
+                            <small class="flex-fill text-center py-1 px-2"><i class="fa fa-user-graduate me-2"></i>3.5L+
+                                Learners
+                            </small>
+                            <small class="flex-fill text-center py-1 px-2"><i
+                                    class="fa fa-user me-2"></i>Beginner</small>
+                        </div>
+                        <div class="d-flex">
+                            <small class="flex-fill text-left p-2 px-2"><i class="fa fa-clock me-2"></i>4.5
+                                Hrs</small>
+                            <small class="py-1 px-2 fw-bold fs-6 text-center">₹ 0</small>
+                            <small class=" text-primary py-1 px-2 fw-bold fs-6" style="float:right;"><a href="#">Enroll
+                                    Now </a><i class="fa fa-chevron-right me-2 fs-10"></i></small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="course-item shadow">
+                        <div class="position-relative overflow-hidden text-light image">
+                            <img class="img-fluid" src="img/course-7.jpg" alt="">
+                            <div style="position:absolute;top: 15px;left: 16px; font-size:12px; border-radius:3px; background-color:#fb873f;"
+                                class="px-2 py-1 fw-bold text-uppercase">FREE</div>
+
+                        </div>
+                        <div class="p-2 pb-0">
+
+                            <h5 class="mb-1">AWS for Beginners
+                            </h5>
+                        </div>
+                        <div class="d-flex">
+                            <small class="flex-fill text-center py-1 px-2"><i class="fa fa-star text-warning me-2"></i>
+                                4.53</small>
+                            <small class="flex-fill text-center py-1 px-2"><i class="fa fa-user-graduate me-2"></i>1L+
+                                Learners
+                            </small>
+                            <small class="flex-fill text-center py-1 px-2"><i
+                                    class="fa fa-user me-2"></i>Beginner</small>
+                        </div>
+                        <div class="d-flex">
+                            <small class="flex-fill text-left p-2 px-2"><i class="fa fa-clock me-2"></i>3.0
+                                Hrs</small>
+                            <small class="py-1 px-2 fw-bold fs-6 text-center">₹ 0</small>
+                            <small class=" text-primary py-1 px-2 fw-bold fs-6" style="float:right;"><a href="#">Enroll
+                                    Now </a><i class="fa fa-chevron-right me-2 fs-10"></i></small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="course-item shadow">
+                        <div class="position-relative overflow-hidden text-light image">
+                            <img class="img-fluid" src="img/course-8.jpg" alt="">
+                            <div style="position:absolute;top: 15px;left: 16px; font-size:12px; border-radius:3px; background-color:#0ed44c;"
+                                class="px-2 py-1 fw-bold text-uppercase">PAID</div>
+
+                        </div>
+                        <div class="p-2 pb-0">
+
+                            <h5 class="mb-1">Microsoft Azure Essentials
+                            </h5>
+                        </div>
+                        <div class="d-flex">
+                            <small class="flex-fill text-center py-1 px-1"><i class="fa fa-star text-warning me-2"></i>
+                                4.64</small>
+                            <small class="flex-fill text-center py-1 px-1"><i class="fa fa-user-graduate me-2"></i>4.4L+
+                                Learners
+                            </small>
+                            <small class="flex-fill text-center py-1 px-1"><i
+                                    class="fa fa-user me-2"></i>Intermediate</small>
+                        </div>
+                        <div class="d-flex">
+                            <small class="flex-fill text-left p-2 px-2"><i class="fa fa-clock me-2"></i>3.5
+                                Hrs</small>
+                            <small class="py-1 px-2 fw-bold fs-6 text-center">₹ 149</small>
+                            <small class=" text-primary py-1 px-2 fw-bold fs-6" style="float:right;"><a href="#">Enroll
+                                    Now </a><i class="fa fa-chevron-right me-2 fs-10"></i></small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="course-item shadow">
+                        <div class="position-relative overflow-hidden text-light image">
+                            <img class="img-fluid" src="img/course-9.jpg" alt="">
+                            <div style="position:absolute;top: 15px;left: 16px; font-size:12px; border-radius:3px; background-color:#fb873f;"
+                                class="px-2 py-1 fw-bold text-uppercase">FREE</div>
+
+                        </div>
+                        <div class="p-2 pb-0">
+
+                            <h5 class="mb-1">Introduction to MS Excel</h5>
+                        </div>
+                        <div class="d-flex">
+                            <small class="flex-fill text-center py-1 px-2"><i class="fa fa-star text-warning me-2"></i>
+                                4.6</small>
+                            <small class="flex-fill text-center py-1 px-2"><i class="fa fa-user-graduate me-2"></i>4.2L+
+                                Learners
+                            </small>
+                            <small class="flex-fill text-center py-1 px-2"><i
+                                    class="fa fa-user me-2"></i>Beginner</small>
+                        </div>
+                        <div class="d-flex">
+                            <small class="flex-fill text-left p-2 px-2"><i class="fa fa-clock me-2"></i>3.5
+                                Hrs</small>
+                            <small class="py-1 px-2 fw-bold fs-6 text-center">₹ 0</small>
+                            <small class=" text-primary py-1 px-2 fw-bold fs-6" style="float:right;"><a href="#">Enroll
+                                    Now </a><i class="fa fa-chevron-right me-2 fs-10"></i></small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="course-item shadow">
+                        <div class="position-relative overflow-hidden text-light image">
+                            <img class="img-fluid" src="img/course-10.jpg" alt="">
+                            <div style="position:absolute;top: 15px;left: 16px; font-size:12px; border-radius:3px; background-color:#0ed44c;"
+                                class="px-2 py-1 fw-bold text-uppercase">PAID</div>
+
+                        </div>
+                        <div class="p-2 pb-0">
+
+                            <h5 class="mb-1">Statistics For Data Science
+                            
+                                
+                            </h5>
+                        </div>
+                        <div class="d-flex">
+                            <small class="flex-fill text-center py-1 px-1"><i class="fa fa-star text-warning me-2"></i>
+                                4.55</small>
+                            <small class="flex-fill text-center py-1 px-1"><i class="fa fa-user-graduate me-2"></i>5.3L+
+                                Learners
+                            </small>
+                            <small class="flex-fill text-center py-1 px-1"><i
+                                    class="fa fa-user me-2"></i>Intermediate</small>
+                        </div>
+                        <div class="d-flex">
+                            <small class="flex-fill text-left p-2 px-2"><i class="fa fa-clock me-2"></i>2.5
+                                Hrs</small>
+                            <small class="py-1 px-2 fw-bold fs-6 text-center">₹ 299</small>
+                            <small class=" text-primary py-1 px-2 fw-bold fs-6" style="float:right;"><a href="#">Enroll
+                                    Now </a><i class="fa fa-chevron-right me-2 fs-10"></i></small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="course-item shadow">
+                        <div class="position-relative overflow-hidden text-light image">
+                            <img class="img-fluid" src="img/course-11.jpg" alt="">
+                            <div style="position:absolute;top: 15px;left: 16px; font-size:12px; border-radius:3px; background-color:#fb873f;"
+                                class="px-2 py-1 fw-bold text-uppercase">FREE</div>
+
+                        </div>
+                        <div class="p-2 pb-0">
+
+                            <h5 class="mb-1">Java Programming
+                            </h5>
+                        </div>
+                        <div class="d-flex">
+                            <small class="flex-fill text-center py-1 px-2"><i class="fa fa-star text-warning me-2"></i>
+                                4.45</small>
+                            <small class="flex-fill text-center py-1 px-2"><i class="fa fa-user-graduate me-2"></i>5L+
+                                Learners
+                            </small>
+                            <small class="flex-fill text-center py-1 px-2"><i
+                                    class="fa fa-user me-2"></i>Beginner</small>
+                        </div>
+                        <div class="d-flex">
+                            <small class="flex-fill text-left p-2 px-2"><i class="fa fa-clock me-2"></i>2.0
+                                Hrs</small>
+                            <small class="py-1 px-2 fw-bold fs-6 text-center">₹ 0</small>
+                            <small class=" text-primary py-1 px-2 fw-bold fs-6" style="float:right;"><a href="#">Enroll
+                                    Now </a><i class="fa fa-chevron-right me-2 fs-10"></i></small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="course-item shadow">
+                        <div class="position-relative overflow-hidden text-light image">
+                            <img class="img-fluid" src="img/course-12.png" alt="">
+                            <div style="position:absolute;top: 15px;left: 16px; font-size:12px; border-radius:3px; background-color:#fb873f;"
+                                class="px-2 py-1 fw-bold text-uppercase">FREE</div>
+
+                        </div>
+                        <div class="p-2 pb-0">
+
+                            <h5 class="mb-1">C for Beginners
+                            </h5>
+                        </div>
+                        <div class="d-flex">
+                            <small class="flex-fill text-center py-1 px-2"><i class="fa fa-star text-warning me-2"></i>
+                                4.5</small>
+                            <small class="flex-fill text-center py-1 px-2"><i class="fa fa-user-graduate me-2"></i>1.1L+
+                                Learners
+                            </small>
+                            <small class="flex-fill text-center py-1 px-2"><i
+                                    class="fa fa-user me-2"></i>Beginner</small>
+                        </div>
+                        <div class="d-flex">
+                            <small class="flex-fill text-left p-2 px-2"><i class="fa fa-clock me-2"></i>1.5
+                                Hrs</small>
+                            <small class="py-1 px-2 fw-bold fs-6 text-center">₹ 0</small>
+                            <small class=" text-primary py-1 px-2 fw-bold fs-6" style="float:right;"><a href="#">Enroll
+                                    Now </a><i class="fa fa-chevron-right me-2 fs-10"></i></small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="container text-center">
+        <a class="btn text-light py-3 px-5 mt-2 mb-5" href="courses.html">All Courses</a>
+    </div>
+
+    <!-- Courses End -->
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-4 col-md-6">
+                    <h4 class="text-white mb-3">Quick Link</h4>
+                    <p><a class="text-light" href="about.html">About Us</a></p>
+                    <p><a class="text-light" href="contact.html">Contact Us</a></p>
+                    <p><a class="text-light" href="">Privacy Policy</a></p>
+                    <p><a class="text-light" href="">Terms & Condition</a></p>
+                    <p><a class="text-light" href="">FAQs & Help</a></p>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <h4 class="text-white mb-3">Contact</h4>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Vishrambag,Sangli, Maharashtra</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+91 1234567890</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>techkeeda@gmail.com</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <h4 class="text-white mb-3">Subscribe to our Newsletter</h4>
+                    <p>Subscribe now and join our growing community of learners committed to lifelong education! </p>
+                    <div class="position-relative mx-auto" style="max-width: 400px;">
+                        <form action="#">
+                            <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="email"
+                                placeholder="Your email" required>
+                            <button type="submit"
+                                class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2"><a
+                                    href="mailto:keertidvcorai@gmail.com">Subscribe</a></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a class="border-bottom" href="index.html">Tech Keeda</a>, All Right Reserved.
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
